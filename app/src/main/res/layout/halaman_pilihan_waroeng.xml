@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HalamanPilihanWaroeng">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradien1">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="386dp"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.025">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/namaadmin"
+                    android:layout_width="216dp"
+                    android:layout_height="41dp"
+                    android:background="@drawable/btnrounded"
+                    android:gravity="center"
+                    android:paddingStart="50px"
+                    android:text="Nama"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.682"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.508"
+                    tools:ignore="RtlCompat" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="83dp"
+                    android:layout_height="79dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.983"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.523"
+                    app:srcCompat="@drawable/admin" />
+
+                <Button
+                    android:id="@+id/logoutadmin"
+                    android:layout_width="86dp"
+                    android:layout_height="38dp"
+                    android:background="@drawable/imgrounded"
+                    android:text="Logout"
+                    android:textSize="8sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.054"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="355dp"
+            android:layout_height="549dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.792">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/menuadmin"
+                    android:layout_width="270dp"
+                    android:layout_height="201dp"
+                    android:background="@drawable/btnrounded"
+                    android:contentDescription="Tambah Produk"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.132"
+                    app:srcCompat="@drawable/new_project__8_" />
+
+                <ImageButton
+                    android:id="@+id/kasir"
+                    android:layout_width="270dp"
+                    android:layout_height="201dp"
+                    android:background="@drawable/btnrounded2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.855"
+                    app:srcCompat="@drawable/new_project__7_" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="236dp"
+                    android:layout_height="32dp"
+                    android:background="@android:drawable/editbox_dropdown_dark_frame"
+                    android:gravity="center"
+                    android:text="Menu Admin"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.495"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.454" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="236dp"
+                    android:layout_height="33dp"
+                    android:background="@android:drawable/editbox_dropdown_dark_frame"
+                    android:gravity="center"
+                    android:text="Menu Kasir"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.495"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.939" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
