@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "203956948534",
+    "project_id": "waroenggaknoermal",
+    "storage_bucket": "waroenggaknoermal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203956948534:android:efa690cef9991154ea1297",
+        "android_client_info": {
+          "package_name": "com.waroeng.waroenggaknoermal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203956948534-a1mhkduvhr3nkr26tnkvu094sgl4bi16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAymodLxlOf3vmPh9LYub2tNQrCJK015HM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203956948534-a1mhkduvhr3nkr26tnkvu094sgl4bi16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
